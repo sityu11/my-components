@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+  html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    background: #cfcfcf;
+    margin-bottom: 50px;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    padding: 10px;
+    color: rgba(255,255,255, .9);
+    background-color: #193a6a;
+    font-family: monospace;
+    font-size: 1.25rem;
+  }
+  .content {
+    min-height: calc(100vh - 50px);
+    background-color: #ae001d;
+    padding: 10px;
+    color: rgba(255,255,255, .9);
+    font-family: monospace;
+    font-size: 1.25rem;
+  }
