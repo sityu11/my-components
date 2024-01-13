@@ -1,0 +1,21 @@
+/*----Border effect-----
+Card border animation. Require "position: relative and display: grid" for the main div!*/
+div::before {
+    position: absolute;
+    content: '';
+    width: 298px;
+    height: 478px;
+    border-radius: 10px;
+    background: rgba(23, 130, 231);
+    z-index: -1;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+div:hover::before {
+    width: 312px;
+    height: 492px;
+    border-radius: 14px;
+    opacity: 50%;
+}
+/* ------------------- */
